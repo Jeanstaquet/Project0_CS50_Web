@@ -13,12 +13,16 @@
   margin-right: auto;
   width: 50px;
 }
+.image:hover {
+  transform: scale(1.5);
+}
 h1 {
-  background-color: green;
+  background-color: #09A7A1;
+  text-transform: uppercase;
 }
 body {
-margin: 25px
-background-color: lightblue;
+margin: 25px;
+background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 }
 .nextpage::before {
   content: "\21d2";
@@ -29,8 +33,39 @@ h1::selection{
   background-color: yellow;
 }
 ol {
-  margin: 20px
-  background-color: gray;
+  margin: 20px;
+  position: relative;
+  left: 40%;
+}
+a:hover {
+  color: black;
+}
+form {
+  position: relative;
+  left: 40%;
+}
+h3 {
+  text-align: center;
+  margin: 15px;
+}
+nav ul {
+  padding: 5px 0px 5px 30px;
+  text-align: center;
+  background-color: hsl(180, 80%, 25%);
+
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 </style>
 
@@ -38,12 +73,19 @@ ol {
 
 <body>
 <h1>Introduction</h1>
-<p>Hello, my name is Jean and here are my new skils in HTML5 and CSS</p>
-<p>If you don't know these languages yet, click on the images to take you to their homepage</p>
+<nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Classes</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+<em><p>Hello, my name is Jean and here are my new skils in HTML5 and CSS</p>
+<p>If you don't know these languages yet, click on the images to take you to their homepage</p></em>
 <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><img class="image" src="image/HTML_logo.png"></a>
 <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"> <img class="image" src="image/CSS_logo.png"></a>
 
-<h3>Here is the list of my hard skills:</h3>
+<u><h3>Here is the list of my hard skills:</h3></u>
 <ol>
   <li>R programming:</li>
     <ul class="flexcontainer">
@@ -67,6 +109,8 @@ ol {
   <input type="text" placeholder="Name" name="name">
   <button>Submit!</button>
 </form>
+
 <p>To see the next page<a href="page2.html" class="nextpage"> Click Here!</a>
 </body>
+<footer>&copy; 2019 JS</footer>
 </html>
