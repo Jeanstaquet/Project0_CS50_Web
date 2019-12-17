@@ -1,0 +1,17 @@
+.title {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  margin: 40px
+  color: "#0F3DD2";
+  text-align: center;
+  font-weight: bold;
+  border: 5px dotted gray;
+}
+h3 {
+  margin: 20px;
+}
+p {
+  margin: 15px;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>-Introduction-JeanS Portefolio</title>
+<style>
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+h1 {
+  background-color: green;
+}
+body {
+margin: 25px
+background-color: lightblue;
+}
+.nextpage::before {
+  content: "\21d2";
+  font-weight: bold;
+}
+h1::selection{
+  color: red;
+  background-color: yellow;
+}
+ol {
+  margin: 20px
+  background-color: gray;
+}
+</style>
+
+</head>
+
+<body>
+<h1>Introduction</h1>
+<p>Hello, my name is Jean and here are my new skils in HTML5 and CSS</p>
+<p>If you don't know these languages yet, click on the images to take you to their homepage</p>
+<a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><img class="image" src="image/HTML_logo.png"></a>
+<a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"> <img class="image" src="image/CSS_logo.png"></a>
+
+<h3>Here is the list of my hard skills:</h3>
+<ol>
+  <li>R programming:</li>
+    <ul class="flexcontainer">
+      <li>Full data Analysis</li>
+      <li>Web Scraping</li>
+      <li>Statistic modeling</i>
+    </ul>
+    <li>Python programming:</li>
+      <ul>
+        <li>OOP</li>
+        <li>Data Science</li>
+        <li>ML</li>
+        <li>Flask+Django(soon)</li>
+        <li>Webscraping</li>
+      </ul>
+      <li>SQL</li>
+      <li>Apache Spark(trough R)</li>
+      <li>Soon!: Webprogramming with Python and JS</li>
+</ol>
+<form>
+  <input type="text" placeholder="Name" name="name">
+  <button>Submit!</button>
+</form>
+<p>To see the next page<a href="page2.html" class="nextpage"> Click Here!</a>
+</body>
+</html>
